@@ -3,7 +3,7 @@ import pydirectinput as p   #https://github.com/learncodebygaming/pydirectinput 
 import ctypes
 import pyautogui
 import time
-import  numpy
+import numpy
 from api.keybinds import PressKey , ReleaseKey , MoveTo , Hotkey ,PressMouse ,LocateImage
 
 time.sleep(5)
@@ -18,7 +18,7 @@ while (True):
     p.mouseUp()
     """
     LocateImage()
-    #PressKey(0x11)w
+    #PressKey(0x11)
     #time.sleep(1)
     #ReleaseKey(0x11)
     #time.sleep(1)11
